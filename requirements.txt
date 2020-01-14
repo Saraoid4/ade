@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pandas
+sortedcontainers
+seaborn
+pyyaml
+setuptools-scm
+jitcdde
+setuptools
+# timesynth
+sklearn
+krippendorff
