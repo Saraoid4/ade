@@ -1,12 +1,3 @@
-__author__ = "Dihia BOULEGANE"
-__copyright__ = ""
-__credits__ = ["Dihia BOULEGANE"]
-__license__ = "GPL"
-__version__ = "0.1"
-__maintainer__ = "Dihia BOULEGANE"
-__email__ = "dihia.boulegane@telecom-paristech.fr"
-__status__ = "Development"
-
 
 from abc import ABCMeta, abstractmethod
 from skmultiflow.core.base import StreamModel
@@ -14,7 +5,6 @@ from skmultiflow.utils import *
 from utils.metrics import *
 from core.queue import Queue
 from ade.selection_methods import get_all_predictions
-
 from os.path import join
 from ade.file_utils import init_file, update_file
 
